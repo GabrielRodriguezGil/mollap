@@ -1,3 +1,3 @@
 class Target:
-    def ejecucion():
+    def ejecucion(self):
         pass

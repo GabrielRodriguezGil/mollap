@@ -1,3 +1,3 @@
 class Filtre:
-    def ejecucion():
+    def ejecucion(self):
         pass
