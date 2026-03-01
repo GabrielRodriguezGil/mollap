@@ -14,13 +14,13 @@ class Tareas():
         self.target = vehicle
 
     def add_tarea(self,tarea):
-        self.get_tareas.append(tarea)
+        self.get_tareas().append(tarea)
 
-    def ejecución(self,id):
+    def ejecucion(self,id):
         for tarea in self.get_tareas():
-            tarea.ejecucion()
+            tarea.ejecucion(id)
 
         if self.target is not None:
-            self.target.ejecucion()
+            self.target.ejecucion(id)
         else:
             pass
