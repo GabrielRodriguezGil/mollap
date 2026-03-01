@@ -1,4 +1,4 @@
-import Target
+from src.targets.Target import Target
 
 
 class Vehicle(Target):

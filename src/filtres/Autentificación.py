@@ -1,5 +1,4 @@
-import Filtre
-
+from src.filtres.Filtre import Filtre
 
 class Autentificacion(Filtre):
     def __init__(self):
