@@ -13,7 +13,7 @@ class Progrmador_tareas():
     def get_tareas(self):
         return self.tareas
     
-    def set_tarea(self, tarea):
+    def add_tarea(self, tarea):
         self.get_tareas.add_tarea(tarea)
     
     def ejecutar_tarea(self, id):

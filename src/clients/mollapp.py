@@ -5,7 +5,7 @@ class Mollapp(Client):
     def __init__(self):
         self.programadorTareas = None
 
-    def setProgramadorTasques(self, programadorTareas):
+    def set_programador_tareas(self, programadorTareas):
         self.programadorTareas = programadorTareas
 
     def enviar(self, id):

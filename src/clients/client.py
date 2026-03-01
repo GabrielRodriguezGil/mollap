@@ -1,6 +1,6 @@
 class Client:
 
-    def setProgramadorTareas(self, programadorTareas):
+    def set_programador_tareas(self, programadorTareas):
         pass
 
     def enviar(self,id):
