@@ -1,4 +1,4 @@
-class tareas():
+class Tareas():
     
     def __init__(self):
         self.tareas = []
@@ -24,4 +24,3 @@ class tareas():
             self.target.ejecucion()
         else:
             pass
-        
